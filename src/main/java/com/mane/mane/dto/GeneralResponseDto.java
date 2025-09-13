@@ -5,5 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ReceptorDto {
+public class GeneralResponseDto {
+    public String mensaje;
+    public Object data;
 }
